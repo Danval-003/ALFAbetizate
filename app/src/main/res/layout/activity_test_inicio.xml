@@ -111,7 +111,7 @@
             android:layout_width="94dp"
             android:layout_height="74dp"
             android:layout_marginTop="208dp"
-            android:contentDescription="@string/todo"
+            android:contentDescription="TODO"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.299"
             app:layout_constraintStart_toStartOf="parent"
@@ -130,8 +130,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/radioGroup23"
             app:layout_constraintVertical_bias="0.42000002"
-            app:srcCompat="@drawable/wdw"
-            android:contentDescription="@string/todo" />
+            app:srcCompat="@drawable/wdw" />
 
         <ImageView
             android:id="@+id/imageView8"
@@ -142,8 +141,7 @@
             app:layout_constraintHorizontal_bias="0.257"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/wdw"
-            android:contentDescription="@string/todo" />
+            app:srcCompat="@drawable/wdw" />
 
         <ImageView
             android:id="@+id/imageView9"
@@ -154,8 +152,7 @@
             app:layout_constraintHorizontal_bias="0.256"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/wdw"
-            android:contentDescription="@string/todo" />
+            app:srcCompat="@drawable/wdw" />
 
         <ImageView
             android:id="@+id/imageView10"
@@ -169,8 +166,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView16"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/wdw"
-            android:contentDescription="@string/todo" />
+            app:srcCompat="@drawable/wdw" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -183,8 +179,7 @@
             app:layout_constraintHorizontal_bias="0.81"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView11"
-            app:srcCompat="@drawable/wdw"
-            android:contentDescription="@string/todo" />
+            app:srcCompat="@drawable/wdw" />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -219,7 +214,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="92dp"
                 android:minHeight="48dp"
-                android:text="@string/o"
+                android:text="O"
                 android:textSize="34sp" />
 
             <RadioButton
@@ -227,7 +222,7 @@
                 android:layout_width="289dp"
                 android:layout_height="58dp"
                 android:minHeight="48dp"
-                android:text="@string/b"
+                android:text="B"
                 android:textSize="34sp" />
 
             <RadioButton
@@ -235,7 +230,7 @@
                 android:layout_width="289dp"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/a"
+                android:text="A"
                 android:textSize="34sp" />
 
             <RadioButton
@@ -243,7 +238,7 @@
                 android:layout_width="287dp"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/e"
+                android:text="E"
                 android:textSize="34sp" />
 
         </RadioGroup>
@@ -273,7 +268,7 @@
                 android:layout_width="311dp"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/i"
+                android:text="I"
                 android:textSize="34sp" />
 
             <RadioButton
@@ -281,7 +276,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/e"
+                android:text="E"
                 android:textSize="34sp" />
 
             <RadioButton
@@ -289,7 +284,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/z"
+                android:text="Z"
                 android:textSize="34sp" />
 
             <RadioButton
@@ -297,7 +292,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/u"
+                android:text="U"
                 android:textSize="34sp" />
         </RadioGroup>
 
@@ -339,30 +334,63 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/j"
+                android:text="J"
                 android:textSize="34sp" />
 
             <RadioButton
                 android:id="@+id/radioButton12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/u"
+                android:minHeight="48dp"
+                android:text="U"
                 android:textSize="34sp" />
 
             <RadioButton
                 android:id="@+id/radioButton13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t"
+                android:minHeight="48dp"
+                android:text="T"
                 android:textSize="34sp" />
 
             <RadioButton
                 android:id="@+id/radioButton14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/h"
+                android:minHeight="48dp"
+                android:text="H"
                 android:textSize="34sp" />
         </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="440dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="1506dp"
+            android:layout_marginBottom="3dp"
+            android:background="#3F5985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Fin"
+            android:layout_width="154dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="1414dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginRight="161dp"
+            android:layout_marginBottom="167dp"
+            android:text="Fin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.469"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
