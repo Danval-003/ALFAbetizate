@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ALFAbetizate">
         <activity
-            android:name=".botonInicio"
+            android:name=".menu"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".botonInicio"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".TestInicio"
             android:exported="false"

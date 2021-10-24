@@ -341,6 +341,7 @@
                 android:id="@+id/radioButton12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:minHeight="48dp"
                 android:text="U"
                 android:textSize="34sp" />
 
@@ -348,6 +349,7 @@
                 android:id="@+id/radioButton13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:minHeight="48dp"
                 android:text="T"
                 android:textSize="34sp" />
 
@@ -355,9 +357,40 @@
                 android:id="@+id/radioButton14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:minHeight="48dp"
                 android:text="H"
                 android:textSize="34sp" />
         </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="440dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="1506dp"
+            android:layout_marginBottom="3dp"
+            android:background="#3F5985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Fin"
+            android:layout_width="154dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="1414dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginRight="161dp"
+            android:layout_marginBottom="167dp"
+            android:text="Fin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.469"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
