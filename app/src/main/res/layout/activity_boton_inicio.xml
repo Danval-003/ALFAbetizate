@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFE9EB"
+    tools:context=".botonInicio">
+
+    <ImageView
+        android:id="@+id/Ima"
+        android:layout_width="386dp"
+        android:layout_height="462dp"
+        android:contentDescription="@string/daniel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dddds" />
+
+    <Button
+        android:id="@+id/Btt"
+        android:layout_width="249dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="262dp"
+        android:layout_height="363dp"
+        android:layout_marginTop="412dp"
+        android:contentDescription="@string/daniel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Ima"
+        app:srcCompat="@drawable/wdw" />
+</androidx.constraintlayout.widget.ConstraintLayout>
