@@ -1,8 +1,10 @@
 package com.example.alfabetizate;
 
-import android.content.Context;
+
 import android.speech.tts.TextToSpeech;
+
 import android.util.Log;
+import android.content.Context;
 
 import java.util.Locale;
 
@@ -12,17 +14,14 @@ public class TTSManager {
     private boolean isLoaded = false;
 
     public void init(Context context) {
-        try {
-            mTts = new TextToSpeech(context, onInitListener);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        mTts = new TextToSpeech(context, onInitListener);
+
     }
 
-    private TextToSpeech.OnInitListener onInitListener = new TextToSpeech.OnInitListener() {
+    private final TextToSpeech.OnInitListener onInitListener = new TextToSpeech.OnInitListener() {
         @Override
         public void onInit(int status) {
-            Locale spanish = new Locale("es", "ES");
+            Locale spanish = Locale.ENGLISH;
             if (status == TextToSpeech.SUCCESS) {
                 int result = mTts.setLanguage(spanish);
                 isLoaded = true;
@@ -36,6 +35,7 @@ public class TTSManager {
 
         }
     };
+
 
     public void shutDown() {
         mTts.shutdown();
