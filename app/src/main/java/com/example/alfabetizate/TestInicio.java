@@ -9,8 +9,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class TestInicio extends AppCompatActivity {
 
+    private Bundle savedInstanceState;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.savedInstanceState = savedInstanceState;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_inicio);
         Button j= (Button) findViewById(R.id.Fin);
