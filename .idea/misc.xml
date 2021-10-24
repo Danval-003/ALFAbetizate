@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/font/fet.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_inicio.xml" value="0.1" />
         <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_test_inicio.xml" value="0.152" />
+        <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_test_inicio.xml" value="0.1" />
       </map>
     </option>
   </component>
