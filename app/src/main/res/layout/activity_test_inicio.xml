@@ -197,16 +197,32 @@
             app:srcCompat="@android:drawable/ic_lock_silent_mode_off"
             tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="228dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView11" />
+
         <RadioGroup
             android:id="@+id/radioGroup23"
             android:layout_width="335dp"
             android:layout_height="303dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="63dp"
+            android:layout_marginRight="63dp"
+            android:layout_marginBottom="1133dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
-            app:layout_constraintVertical_bias="0.589">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
 
             <RadioButton
                 android:id="@+id/radioButton6"
@@ -242,16 +258,6 @@
                 android:textSize="34sp" />
 
         </RadioGroup>
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="81dp"
-            android:layout_height="17dp"
-            android:layout_marginTop="228dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView11" />
 
         <RadioGroup
             android:id="@+id/radioGroup2"
