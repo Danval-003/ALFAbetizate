@@ -22,19 +22,20 @@ public class TTSManager {
         @Override
         public void onInit(int status) {
             Locale spanish = Locale.ENGLISH;
-            if (status == TextToSpeech.SUCCESS) {
+
                 int result = mTts.setLanguage(spanish);
                 isLoaded = true;
 
                 if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                     Log.e("[ERROR]", "Este lenguaje no está permitido");
                 }
-            } else {
+           /** } else {
                 Log.e("[ERROR]", "Fallo al inicializar el asistent de voz");
-            }
+            }*/
 
         }
     };
+
 
 
     public void shutDown() {
@@ -54,7 +55,7 @@ public class TTSManager {
         else
             Log.e("[ERROR]", "TTS No inicializado");
     }
-}
+    }
 
 
 
