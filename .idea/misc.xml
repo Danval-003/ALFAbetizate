@@ -5,12 +5,15 @@
       <map>
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1953125" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_boton_inicio.xml" value="0.1" />
+        <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_correcto.xml" value="0.22" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_inicio.xml" value="0.15" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_menu.xml" value="0.22" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_test1.xml" value="0.22" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_test2.xml" value="0.2" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_test3.xml" value="0.25" />
+        <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_test4.xml" value="0.18" />
         <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/activity_test_inicio.xml" value="0.1" />
+        <entry key="..\:/Users/Alvar/AndroidStudioProjects/ALFAbetizate/app/src/main/res/layout/respuesta_correcta.xml" value="0.11639492753623189" />
         <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_inicio.xml" value="0.1" />
         <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/JulioValdez/Desktop/ALFAbetizate/app/src/main/res/layout/activity_test_inicio.xml" value="0.152" />
