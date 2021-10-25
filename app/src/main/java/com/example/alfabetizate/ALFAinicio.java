@@ -15,7 +15,7 @@ public class ALFAinicio extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(ALFAinicio.this, TestInicio.class);
+                Intent intent=new Intent(ALFAinicio.this, botonInicio.class);
                 startActivity(intent);
             }
         },4000);
