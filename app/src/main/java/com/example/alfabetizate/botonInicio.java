@@ -13,7 +13,7 @@ public class botonInicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boton_inicio);
-
+        
         Button hablarAhoraButton = findViewById(R.id.Btt);
         hablarAhoraButton.setOnClickListener(this::onClick);
 
